@@ -60,5 +60,11 @@ img{
 }
 
 .categoria-eventos img{
-    height: 200px
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-eventos img:hover{
+    opacity: 1;
+    border: 5px solid rgb(180, 58, 204);
 }
