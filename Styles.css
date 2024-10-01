@@ -1,0 +1,64 @@
+body {
+    background-color: #f9f3e6;
+    color: #ffffff;
+    margin: 0px;
+    font-family: "Carrois Gothic", sans-serif;
+}
+
+header {
+    border-bottom:solid white;
+    padding: 20px;
+    font-size: 32px;
+    color: #bb88ed;
+}
+
+.chamada {
+    background-color: #bb88ed;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    color:black;
+    margin-bottom: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1;
+    border: 5px solid rgb(180, 58, 204);
+}
+
+.categoria-eventos img{
+    height: 200px
+}
